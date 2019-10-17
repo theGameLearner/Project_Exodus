@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Missile : MonoBehaviour
 {
+
+    public bool isArmed = false;
+
+    public float armingTime = 2f;
     public GameObject PointerPrefab;
     private GameObject pointer;
     public Transform target;
@@ -28,6 +32,14 @@ public class Missile : MonoBehaviour
         pointer.transform.parent = GameObject.FindGameObjectWithTag("Pointers").transform;
         pointer.transform.localScale = new Vector3(1,1,1);
         rigidbody2D = GetComponent<Rigidbody2D>();
+        StartCoroutine(armMissile());
+
+
+    }
+
+    IEnumerator armMissile(){
+        yield return new WaitForSecondsRealtime(armingTime);
+        isArmed = true;
     }
     
 
@@ -78,7 +90,7 @@ public class Missile : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "enemy" ){
-            if(!other.bounds.Contains(transform.position)){
+            if(isArmed){
                 //particle effect
                 
                 Destroy(pointer);

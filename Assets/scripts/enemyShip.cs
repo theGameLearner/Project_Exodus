@@ -90,7 +90,8 @@ public class enemyShip : MonoBehaviour
     {   
        
             if(other.tag == "missile"){
-                if(!GetComponent<BoxCollider2D>().bounds.Contains(other.transform.position)){
+
+                if(other.gameObject.GetComponent<Missile>().isArmed){
                     appydamage();
                 }
 
