@@ -152,6 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 250bc3ad67c54d34ea3e6dd67afadf33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticleSystem: {fileID: 4955476724340917923, guid: 13523b2cdb153fc4882f6eb9f02d953c,
+    type: 3}
+  isArmed: 0
+  armingTime: 2
   PointerPrefab: {fileID: 4722021415172551759, guid: 0adc4352ef5b7a44fbf76515ef87813f,
     type: 3}
   target: {fileID: 0}
@@ -216,7 +220,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 2
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -224,7 +228,7 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.2687645
+        time: 0
         value: 0.4247303
         inSlope: 0
         outSlope: 0
@@ -232,13 +236,22 @@ TrailRenderer:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9806267
+        value: 0.0000032782555
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.5283019, g: 0.05731578, b: 0.18818046, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 0.19215687}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class enemyShip : MonoBehaviour
 {
+    public GameObject explosionParticleSystem;
     public GameObject PointerPrefab;
     private GameObject pointer;
 
@@ -104,7 +105,9 @@ public class enemyShip : MonoBehaviour
     void appydamage(){
         health-=1;
         if(health<=0){
+            Explode();
             //particle effect
+            GameManager.instance.ShipDestroyed(this.gameObject);
             Destroy(this.pointer);
             Destroy(this.gameObject);
             return;
@@ -117,6 +120,11 @@ public class enemyShip : MonoBehaviour
     {
         float ratio = health/MaxHealth;
         healthBar.transform.localScale = new Vector3(ratio,1,1);
+    }
+
+    void Explode(){
+        GameObject ps = Instantiate(explosionParticleSystem,transform.position,Quaternion.identity);
+        Destroy(ps,ps.GetComponent<ParticleSystem>().main.duration);
     }
 
 }

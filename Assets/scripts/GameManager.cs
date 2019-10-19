@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
+    public GameObject fuelPrefab;
     public bool shipCollisions = false;
 
     public float spawnRadius=10f;
@@ -106,10 +107,12 @@ public class GameManager : MonoBehaviour
             StopCoroutine(shipSpawnCoroutine);
             shipSpawnCoroutine = StartCoroutine(ShipSpawn());
         }
+        Instantiate(fuelPrefab,ship.transform.position,Quaternion.identity);
     }
 
     public void gameOver(){
         GameOverMenu.SetActive(true);
+        StopAllCoroutines();
         Time.timeScale = 0;
     }
 

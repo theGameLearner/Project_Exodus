@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class fuselage : MonoBehaviour
 {
+    public GameObject explosionParticleSystem;
    public leftwing leftWing;
    public leftwing rightWing;
 
@@ -33,13 +34,26 @@ public class fuselage : MonoBehaviour
            if(other.tag == "enemy"){
 
                 //particle effect
-                GameManager.instance.gameOver();
-                Destroy(transform.parent.gameObject);
+               StartCoroutine( Explode());
+                
 
             }
         }
        
    }
+
+
+     IEnumerator Explode(){
+        GameObject ps = Instantiate(explosionParticleSystem,transform.position,Quaternion.identity);
+        Destroy(ps,ps.GetComponent<ParticleSystem>().main.duration);
+        transform.parent.GetComponent<SpriteRenderer>().enabled = false;
+        transform.parent.GetComponent<Player>().enabled = false;
+        yield return new WaitForSecondsRealtime(ps.GetComponent<ParticleSystem>().main.duration);
+        GameManager.instance.gameOver();
+        
+        
+
+    }
 
 
 }

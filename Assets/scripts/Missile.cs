@@ -5,6 +5,7 @@ using UnityEngine;
 public class Missile : MonoBehaviour
 {
 
+    public GameObject explosionParticleSystem;
     public bool isArmed = false;
 
     public float armingTime = 2f;
@@ -72,7 +73,7 @@ public class Missile : MonoBehaviour
         if(other.collider.tag == "missile" || other.collider.tag == "Player"){
            
                 //particle effect
-                
+                Explode();
                 //increment score
                 Destroy(pointer);
                 Destroy(gameObject);
@@ -92,7 +93,7 @@ public class Missile : MonoBehaviour
         if(other.tag == "enemy" ){
             if(isArmed){
                 //particle effect
-                
+                Explode();
                 Destroy(pointer);
                 Destroy(gameObject);
 
@@ -100,5 +101,10 @@ public class Missile : MonoBehaviour
             
         }
         
+    }
+
+    void Explode(){
+        GameObject ps = Instantiate(explosionParticleSystem,transform.position,Quaternion.identity);
+        Destroy(ps,ps.GetComponent<ParticleSystem>().main.duration);
     }
 }

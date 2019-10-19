@@ -5,6 +5,8 @@ using UnityEngine;
 public class leftwing : MonoBehaviour
 {
     PolygonCollider2D wingCollider;
+    public GameObject particleSystem;
+    public float repairTime = 20f;
 
 
     /// <summary>
@@ -26,11 +28,21 @@ public class leftwing : MonoBehaviour
             GameObject parent = transform.parent.gameObject;
             parent.GetComponent<Player>().leftWingDamage = true;
             toggleCollider();
+            StartCoroutine(repairWing());
 
         }
     }
 
     public void toggleCollider(){
         wingCollider.enabled = !wingCollider.enabled;
+        particleSystem.SetActive(!particleSystem.activeSelf);
+    }
+
+    IEnumerator repairWing(){
+        yield return new WaitForSecondsRealtime(repairTime);
+        GameObject parent = transform.parent.gameObject;
+        parent.GetComponent<Player>().leftWingDamage = false;
+        toggleCollider();
+
     }
 }

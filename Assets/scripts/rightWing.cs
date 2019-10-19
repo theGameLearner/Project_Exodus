@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class rightWing : MonoBehaviour
 {
+    
+    public GameObject particleSystem;
     PolygonCollider2D wingCollider;
+    
+    public float repairTime = 20f;
 
 
     /// <summary>
@@ -26,10 +30,20 @@ public class rightWing : MonoBehaviour
             GameObject parent = transform.parent.gameObject;
             parent.GetComponent<Player>().rightWingDamage = true;
             toggleCollider();
+            StartCoroutine(repairWing());           
         }
     }
 
     public void toggleCollider(){
         wingCollider.enabled = !wingCollider.enabled;
+        particleSystem.SetActive(!particleSystem.activeSelf);
+    }
+
+    IEnumerator repairWing(){
+        yield return new WaitForSecondsRealtime(repairTime);
+        GameObject parent = transform.parent.gameObject;
+        parent.GetComponent<Player>().rightWingDamage = false;
+        toggleCollider();
+
     }
 }
