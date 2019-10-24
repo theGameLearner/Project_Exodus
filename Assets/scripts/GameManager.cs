@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
     IEnumerator ShipSpawn(){
         while(true){
             SpawnEnemyShip();
-            yield return new WaitForSecondsRealtime(ShipSpawnRate);
+            yield return new WaitForSeconds(ShipSpawnRate);
         }
 
         

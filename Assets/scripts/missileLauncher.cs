@@ -30,7 +30,7 @@ public class missileLauncher : MonoBehaviour
     IEnumerator PeriodicSpawn(){
         while(true){
 
-            yield return new WaitForSecondsRealtime(spawnRate);
+            yield return new WaitForSeconds(spawnRate);
             SpawnMissile();
             
         }

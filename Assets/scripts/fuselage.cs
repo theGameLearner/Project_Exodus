@@ -18,8 +18,7 @@ public class fuselage : MonoBehaviour
        if(other.collider.tag == "missile" ){
 
            //particle effect
-           GameManager.instance.gameOver();
-           Destroy(transform.parent.gameObject);
+            StartCoroutine( Explode());
        }
    }
 
