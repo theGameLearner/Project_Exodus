@@ -75,6 +75,10 @@ public class Player : MonoBehaviour
             turning = false;
         }
 
+        if(Input.GetKey(KeyCode.Escape)){
+            GameManager.instance.PauseGame();
+        }
+
         #endif
 
         if(canMove){
