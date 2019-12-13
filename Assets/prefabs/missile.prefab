@@ -56,6 +56,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -155,12 +156,12 @@ MonoBehaviour:
   explosionParticleSystem: {fileID: 4955476724340917923, guid: 13523b2cdb153fc4882f6eb9f02d953c,
     type: 3}
   isArmed: 0
-  armingTime: 2
+  armingTime: 1
   PointerPrefab: {fileID: 4722021415172551759, guid: 0adc4352ef5b7a44fbf76515ef87813f,
     type: 3}
   target: {fileID: 0}
-  turnResponse: 100
-  speed: 20
+  turnResponse: 200
+  speed: 40
 --- !u!50 &1638386215
 Rigidbody2D:
   serializedVersion: 4
@@ -208,6 +209,7 @@ TrailRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

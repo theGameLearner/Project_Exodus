@@ -1,0 +1,870 @@
+Initiating legacy licensing module
+
+LICENSE SYSTEM [20191212 11:13:36] Next license update check is after 2019-12-13T05:22:34
+
+
+LICENSE SYSTEM [20191212 11:13:36] 00331-10000-00001-AA540 != 00331-10000-00001-AA790
+
+Built from '2018.4/staging' branch; Version is '2018.4.11f1 (7098af2f11ea) revision 7379119'; Using compiler version '191326128'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8002 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 49280 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Unity.exe
+-projectPath="C:\Unity\Project
+Exodus"
+-logFile
+stdout.log
+-executeMethod
+unityTools.BuildProject.BuildAndroid
+C:\Unity\Project Exodus\MyGame.apk
+C:/Unity/Project Exodus
+Using Asset Import Pipeline V1.
+Initiating legacy licensing module
+Loading GUID <-> Path mappings...0.000106 seconds
+Loading Asset Database...0.009911 seconds
+Build target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+AssetDatabase consistency checks...0.024934 seconds
+Refreshing native plugins compatible for Editor in 24.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Done resolving packages in 0.23s seconds
+[Package Manager] Registering 36 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: C:\Unity\Project Exodus\Library\PackageCache\com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@3.2.2
+    (location: C:\Unity\Project Exodus\Library\PackageCache\com.unity.analytics@3.2.2)
+[Package Manager]  * Package :  com.unity.collab-proxy@1.2.15
+    (location: C:\Unity\Project Exodus\Library\PackageCache\com.unity.collab-proxy@1.2.15)
+[Package Manager]  * Package :  com.unity.package-manager-ui@2.0.8
+    (location: C:\Unity\Project Exodus\Library\PackageCache\com.unity.package-manager-ui@2.0.8)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: C:\Unity\Project Exodus\Library\PackageCache\com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.4.1
+    (location: C:\Unity\Project Exodus\Library\PackageCache\com.unity.textmeshpro@1.4.1)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+[Package Manager] Done registering packages in 0.03s seconds
+IsTimeToCheckForNewEditor: Update time 1576132685 current 1576129420
+Initialize engine version: 2018.4.11f1 (7098af2f11ea)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: RadeonT RX 560X (ID=0x67ef)
+    Vendor:   
+    VRAM:     4077 MB
+    Driver:   25.20.14128.4002
+[EnlightenBakeManager] m_Clear = false;
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Initializing Unity.PackageManager (PackageManager) v2018.4.11 for Unity v2018.4.11f1
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006500 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.1115477s.
+Native extension for Android target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 2.40 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.022 seconds
+Registering precompiled user dll's ...
+Registered in 0.047462 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.4.11 for Unity v2018.4.11f1
+Registering platform support modules:
+Registered platform support modules in: 0.0609036s.
+Native extension for Android target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.003951 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.021771s
+	Asset Scan time: 0.017684s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Warming cache for 874 main assets: 0.002287 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Load scene 'Assets/Scenes/Main.unity' time: 0.026100 ms 
+LightmapEditorSettings: switching bake backend from 1 to 0.
+Unloading 397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 173 unused Assets to reduce memory usage. Loaded Objects now: 1277.
+Total: 5.810600 ms (FindLiveObjects: 0.449500 ms CreateObjectMapping: 0.031100 ms MarkObjects: 3.929100 ms  DeleteObjects: 1.389400 ms)
+
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+Script Compilation Pipeline Post Process Assets time: 0.000571s
+Assembly Updater Post Process Assets time: 0.000181s
+Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
+ done. [Time: 101.472200 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000021s
+Assembly Updater Post Process Assets time: 0.000152s
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Android PostProcess task "Checking prerequisites" took 1263.4735 ms
+Android PostProcess task "Detect Java Development Kit (JDK)" took 226.1167 ms
+AndroidSDKTools:
+
+	root          : C:\Users\Admin\AppData\Local\Android\sdk
+	tools         : C:\Users\Admin\AppData\Local\Android\sdk\tools
+	platform-tools: C:\Users\Admin\AppData\Local\Android\sdk\platform-tools
+	build-tools   : C:\Users\Admin\AppData\Local\Android\sdk\build-tools\28.0.3
+
+	adb      : C:\Users\Admin\AppData\Local\Android\sdk\platform-tools\adb.exe
+	aapt     : C:\Users\Admin\AppData\Local\Android\sdk\build-tools\28.0.3\aapt.exe
+	zipalign : C:\Users\Admin\AppData\Local\Android\sdk\build-tools\28.0.3\zipalign.exe
+
+AndroidJavaTools:
+	java     : C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Data\PlaybackEngines\AndroidPlayer/Tools\OpenJDK\Windows\bin\java.exe
+	heapsize : 8192
+
+Android PostProcess task "Detecting Android SDK" took 1820.8799 ms
+Android PostProcess task "Detect Android NDK" took 0.1275 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0.3982 ms
+BuildPlayer: start building target 13
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 51 milliseconds
+Pass: 1 took 3 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 54 milliseconds
+Pass: 1 took 12 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 30 milliseconds
+Pass: 1 took 27 milliseconds
+Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs(23,47): warning CS0649: Field 'CameraFollowSetup.cameraFollow' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs Line: 23)
+
+Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs(25,40): warning CS0649: Field 'CameraFollowSetup.zoom' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs Line: 25)
+
+Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs(24,44): warning CS0649: Field 'CameraFollowSetup.followTransform' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs Line: 24)
+
+Assets\CodeMonkey\Utils\Button_Sprite.cs(73,49): warning CS0649: Field 'Button_Sprite.internalOnMouseEnterFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_Sprite.cs Line: 73)
+
+Assets\CodeMonkey\Utils\Button_UI.cs(61,79): warning CS0649: Field 'Button_UI.internalOnPointerClickFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_UI.cs Line: 61)
+
+Assets\CodeMonkey\Utils\Button_UI.cs(61,52): warning CS0649: Field 'Button_UI.internalOnPointerExitFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_UI.cs Line: 61)
+
+Assets\CodeMonkey\Utils\Button_Sprite.cs(73,24): warning CS0649: Field 'Button_Sprite.internalOnMouseDownFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_Sprite.cs Line: 73)
+
+Assets\CodeMonkey\Utils\Button_UI.cs(61,24): warning CS0649: Field 'Button_UI.internalOnPointerEnterFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_UI.cs Line: 61)
+
+Assets\CodeMonkey\Utils\Button_Sprite.cs(73,75): warning CS0649: Field 'Button_Sprite.internalOnMouseExitFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_Sprite.cs Line: 73)
+
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+Opening scene 'Temp/__Backupscenes/0.backup'
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.014300 ms 
+LightmapEditorSettings: switching bake backend from 1 to 0.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 1546.
+Total: 17.450200 ms (FindLiveObjects: 0.435500 ms CreateObjectMapping: 0.025600 ms MarkObjects: 16.666400 ms  DeleteObjects: 0.321500 ms)
+
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+
+
+Mono dependencies included in the build
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+Dependency assembly - UnityEngine.Timeline.dll
+Dependency assembly - UnityEngine.SpatialTracking.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - Unity.Analytics.DataPrivacy.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - Unity.Analytics.StandardEvents.dll
+Dependency assembly - Unity.Analytics.Tracker.dll
+
+Game scripts or other custom code contains OnMouse_ event handlers. Presence of such handlers might impact performance on handheld devices.
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:358)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:257)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:240)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline.bindings.cs:235)
+unityTools.BuildProject:Build(BuildTarget) (at Assets\Editor\BuildProject.cs:26)
+unityTools.BuildProject:BuildAndroid() (at Assets\Editor\BuildProject.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/BuildPipeline/BuildPlayer.cpp line 3258] 
+(Filename: Assets/Editor/BuildProject.cs Line: 26)
+
+Unloading 77 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.7 MB.
+System memory in use after: 163.4 MB.
+
+Unloading 485 unused Assets to reduce memory usage. Loaded Objects now: 1323.
+Total: 18.376100 ms (FindLiveObjects: 0.524100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 16.841300 ms  DeleteObjects: 0.976800 ms)
+
+[EnlightenBakeManager] m_Clear = false;
+Setting up 2 worker threads for Enlighten.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+  Thread -> id: 3210 -> priority: 1 
+  Thread -> id: 5b4c -> priority: 1 
+System memory in use before: 149.1 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1333.
+Total: 17.144200 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.022900 ms MarkObjects: 16.676200 ms  DeleteObjects: 0.012600 ms)
+
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.3 MB.
+System memory in use after: 149.3 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 1325.
+Total: 17.537400 ms (FindLiveObjects: 0.428900 ms CreateObjectMapping: 0.024000 ms MarkObjects: 15.876800 ms  DeleteObjects: 1.206100 ms)
+
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Android PostProcess task "Creating staging area" took 5.9587 ms
+Android PostProcess task "Generating Build Id" took 3.6089 ms
+Android PostProcess task "Preparing Unity resources" took 18.2513 ms
+Android PostProcess task "Managed Stripping: (Mono)" took 0.9527 ms
+Android PostProcess task "Splitting assets" took 52.8243 ms
+Android PostProcess task "Processing OBB assets" took 0.2569 ms
+Android PostProcess task "Preparing Unity libraries" took 186.6092 ms
+Android PostProcess task "Processing resources" took 3.6454 ms
+Android PostProcess task "Preparing APK resources" took 1297.4896 ms
+Android PostProcess task "Processing plugins" took 16.7853 ms
+Android PostProcess task "Processing Android libraries" took 4.3244 ms
+Android PostProcess task "Creating Android manifest" took 2406.509 ms
+Unloading 88 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 169.6 MB.
+
+Unloading 450 unused Assets to reduce memory usage. Loaded Objects now: 1382.
+Total: 38.110800 ms (FindLiveObjects: 3.118800 ms CreateObjectMapping: 0.189700 ms MarkObjects: 24.339700 ms  DeleteObjects: 10.460400 ms)
+
+Android PostProcess task "Compiling resources" took 232.2593 ms
+Android PostProcess task "IL2CPP" took 2.1389 ms
+Android PostProcess task "Build native Unity binary" took 0.1555 ms
+Android PostProcess task "Zipping symbols" took 0.3029 ms
+Android PostProcess task "Performance Reporting Symbol Upload" took 0.3373 ms
+Android PostProcess task "Preparing streaming assets" took 10.381 ms
+Android PostProcess task "AAPT: Compiling all assets into one archive" took 0.3654 ms
+Android PostProcess task "Exporting project" took 686.7688 ms
+Android PostProcess task "Building Gradle project" took 42031.2924 ms
+Android PostProcess task "Moving output package(s)" took 8.5435 ms
+
+-------------------------------------------------------------------------------
+Build Report
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               7.5 mb	 32.8% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                143.3 kb	 0.6% 
+Other Assets           678.6 kb	 2.9% 
+Levels                 28.2 kb	 0.1% 
+Scripts                1.1 mb	 4.6% 
+Included DLLs          13.3 mb	 58.0% 
+File headers           238.4 kb	 1.0% 
+Total User Assets      22.9 mb	 100.0% 
+Complete build size    127.7 mb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 4.0 mb	 3.1% Assets/Sprites/game_asset/fuel-01.png
+ 1.3 mb	 1.0% Assets/Sprites/Default/Nebula-001-CloudyBlue-Bright-01.png
+ 1.3 mb	 1.0% Assets/Sprites/Default/seamless space_0.PNG
+ 332.6 kb	 0.3% Assets/Sprites/redArrows.png
+ 257.3 kb	 0.2% Assets/Sprites/new_assets/missile.png
+ 183.2 kb	 0.1% Resources/unity_builtin_extra
+ 98.8 kb	 0.1% Assets/Sprites/F5S1.png
+ 65.2 kb	 0.0% Assets/Sprites/new_assets/Ship.png
+ 42.8 kb	 0.0% Assets/SimpleParticlePack/Textures/ShockWave.psd
+ 23.0 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab
+ 23.0 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame03.prefab
+ 23.0 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab
+ 23.0 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame01.prefab
+ 22.9 kb	 0.0% Assets/prefabs/shipExplosion.prefab
+ 22.9 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Destruction01.prefab
+ 22.8 kb	 0.0% Assets/prefabs/missileExpolsion.prefab
+ 22.8 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/ShockFlash.prefab
+ 21.5 kb	 0.0% Assets/SimpleParticlePack/Textures/FlameA.psd
+ 15.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion03b.prefab
+ 15.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion03a.prefab
+ 15.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion02.prefab
+ 15.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion01c.prefab
+ 15.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion01b.prefab
+ 15.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab
+ 15.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion07.prefab
+ 15.4 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion03c.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/Flare Combo.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion06.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/ShockFlame.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/FlashRing02.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/FlashRing01.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Ring2x.prefab
+ 15.2 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion05.prefab
+ 10.8 kb	 0.0% Assets/SimpleParticlePack/Textures/Flame.psd
+ 7.8 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Flame2.prefab
+ 7.8 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Flame1.prefab
+ 7.8 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Burst-Sharp.prefab
+ 7.7 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Burst.prefab
+ 7.7 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/FlareCore-Autumn.prefab
+ 7.7 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab
+ 7.7 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/FlareCore.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion04c.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion04b.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/Flare04-ColorBurst.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion04a2.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Explosion04a1.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Shockwave.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Flash02.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Flash01.prefab
+ 7.6 kb	 0.0% Assets/SimpleParticlePack/Resources/Explosions/Ring.prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/Flare02-MultiColor.prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleFlame2(Red).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleFlame2(Green).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleFlame2(Blue).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleFlame(Green).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleFlame(Blue).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleFlame(Red).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/Torch(Green).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/Torch(Blue).prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/SimpleTorch.prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/Flare02.prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Flares/Flare01.prefab
+ 7.5 kb	 0.0% Assets/SimpleParticlePack/Resources/Directional/Torch.prefab
+ 4.1 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 4.1 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+ 2.5 kb	 0.0% Assets/prefabs/frigate.prefab
+ 1.7 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 1.7 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+ 1.5 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+ 1.5 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
+ 1.1 kb	 0.0% Assets/prefabs/missile.prefab
+ 1.1 kb	 0.0% Assets/materials/Smoke.mat
+ 0.9 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+ 0.6 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+ 0.6 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
+ 0.6 kb	 0.0% Assets/materials/player_trail.mat
+ 0.5 kb	 0.0% Assets/CodeMonkey/Assets/White_1x1.psd
+ 0.5 kb	 0.0% Assets/Sprites/Default/Materials/seamless space_0.mat
+ 0.5 kb	 0.0% Assets/CodeMonkey/Assets/White_1x1.mat
+ 0.5 kb	 0.0% Assets/materials/missile_Trail.mat
+ 0.5 kb	 0.0% Assets/prefabs/fuel.prefab
+ 0.4 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+ 0.4 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.4.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+ 0.4 kb	 0.0% Assets/prefabs/pointerMissile.prefab
+ 0.4 kb	 0.0% Assets/prefabs/pointerShip.prefab
+ 0.4 kb	 0.0% Assets/prefabs/pointerFuel.prefab
+ 0.3 kb	 0.0% Packages/com.unity.analytics/Unity.Analytics.Tracker.dll
+ 0.3 kb	 0.0% Packages/com.unity.ads/UnityEngine.Advertisements.dll
+ 0.2 kb	 0.0% Assets/SimpleParticlePack/Materials/Flame01.mat
+ 0.2 kb	 0.0% Assets/CodeMonkey/Resources/CodeMonkeyAssets.prefab
+ 0.1 kb	 0.0% Assets/SimpleParticlePack/Materials/Shockwave.mat
+ 0.1 kb	 0.0% Assets/SimpleParticlePack/Materials/Flame02.mat
+ 0.1 kb	 0.0% Packages/com.unity.analytics/Unity.Analytics.Editor.dll
+ 0.1 kb	 0.0% Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ScrollbarEventHandler.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_PackageResourceImporter.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_EditorResourceManager.cs
+ 0.1 kb	 0.0% Assets/Sprites/Default/Materials/Nebula-001-CloudyBlue-Bright-01.mat
+ 0.1 kb	 0.0% Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_ExtensionMethods.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextParsingUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextElement_Legacy.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAssetUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/MaterialReferenceManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/Tests/Runtime/DataPrivacy/JsonSerialization.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/DataPrivacy/DataPrivacy.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_EventManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_UpdateManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteCharacter.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteAnimator.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SelectionCaret.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_RichTextTagsCommon.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_MaterialManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputValidator.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontFeaturesCommon.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontFeatureTable.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_DefaultControls.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ColorGradient.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Tests/Runtime/TMP_RuntimeTests.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/UI_TextComplex.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/UI_BarMultiple.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/FunctionUpdater.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/FunctionTimer.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/FunctionPeriodic.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/Button_Sprite.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TextContainer.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_UGUI_Private.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_MeshUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_UpdateRegistery.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextElement.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SubMeshUI.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_StyleSheet.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteGlyph.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteAsset.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ShaderUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_RichTextTagStack.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputField.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAssetCommon.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_CoroutineTween.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_CharacterInfo.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Character.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/World_Sprite.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/World_Mesh.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/World_Bar.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/UtilsClass.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/UI_Sprite.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/Button_UI.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshPro.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_Private.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextInfo.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SubMesh.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Style.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Sprite.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Settings.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ObjectPool.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Dropdown.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Asset.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/FastAction.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/AssemblyInfo.cs.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/DataPrivacy/AssemblyInfo.cs
+ 0.1 kb	 0.0% Assets/scripts/missleSpawner.cs
+ 0.1 kb	 0.0% Assets/scripts/missileLauncher.cs
+ 0.1 kb	 0.0% Assets/SimpleParticlePack/Scripts/ParticleTester.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Utils/UI_Bar.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Text.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_MeshInfo.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ListPool.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_LineInfo.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/CMDebug.cs
+ 0.1 kb	 0.0% Assets/CodeMonkey/Assets.cs
+ 0.1 kb	 0.0% Assets/scripts/rightWing.cs
+ 0.1 kb	 0.0% Assets/scripts/enemyShip.cs
+ 0.1 kb	 0.0% Assets/scripts/cameraFollow.cs
+ 0.1 kb	 0.0% Assets/scripts/GameManager.cs
+ 0.1 kb	 0.0% Assets/scripts/FuelScript.cs
+ 0.1 kb	 0.0% Assets/scripts/ArrowPointer.cs
+ 0.1 kb	 0.0% Assets/scripts/leftwing.cs
+ 0.1 kb	 0.0% Assets/scripts/fuselage.cs
+ 0.1 kb	 0.0% Assets/scripts/Player.cs
+ 0.1 kb	 0.0% Assets/scripts/Missile.cs
+ 0.1 kb	 0.0% Assets/scripts/FollowUV.cs
+-------------------------------------------------------------------------------
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.6 MB.
+System memory in use after: 150.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1406.
+Total: 19.457400 ms (FindLiveObjects: 0.961000 ms CreateObjectMapping: 0.031600 ms MarkObjects: 18.416100 ms  DeleteObjects: 0.046800 ms)
+
+DisplayProgressNotification: Build Successful
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.027300 ms 
+LightmapEditorSettings: switching bake backend from 1 to 0.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.7 MB.
+System memory in use after: 155.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 17.450000 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.025900 ms MarkObjects: 16.939600 ms  DeleteObjects: 0.010900 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 81 milliseconds
+Pass: 1 took 0 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 92 milliseconds
+Pass: 1 took 14 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 28 milliseconds
+Pass: 1 took 28 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets\scripts\leftwing.cs(8,23): warning CS0108: 'leftwing.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+ 
+(Filename: Assets\scripts\leftwing.cs Line: 8)
+
+Assets\scripts\Missile.cs(20,17): warning CS0108: 'Missile.rigidbody2D' hides inherited member 'Component.rigidbody2D'. Use the new keyword if hiding was intended.
+ 
+(Filename: Assets\scripts\Missile.cs Line: 20)
+
+Assets\scripts\rightWing.cs(8,23): warning CS0108: 'rightWing.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+ 
+(Filename: Assets\scripts\rightWing.cs Line: 8)
+
+Assets\CodeMonkey\Utils\Button_UI.cs(61,24): warning CS0649: Field 'Button_UI.internalOnPointerEnterFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_UI.cs Line: 61)
+
+Assets\CodeMonkey\Utils\Button_UI.cs(61,52): warning CS0649: Field 'Button_UI.internalOnPointerExitFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_UI.cs Line: 61)
+
+Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs(25,40): warning CS0649: Field 'CameraFollowSetup.zoom' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs Line: 25)
+
+Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs(23,47): warning CS0649: Field 'CameraFollowSetup.cameraFollow' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs Line: 23)
+
+Assets\CodeMonkey\Utils\Button_Sprite.cs(73,24): warning CS0649: Field 'Button_Sprite.internalOnMouseDownFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_Sprite.cs Line: 73)
+
+Assets\CodeMonkey\Utils\Button_Sprite.cs(73,75): warning CS0649: Field 'Button_Sprite.internalOnMouseExitFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_Sprite.cs Line: 73)
+
+Assets\CodeMonkey\Utils\Button_UI.cs(61,79): warning CS0649: Field 'Button_UI.internalOnPointerClickFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_UI.cs Line: 61)
+
+Assets\CodeMonkey\Utils\Button_Sprite.cs(73,49): warning CS0649: Field 'Button_Sprite.internalOnMouseEnterFunc' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\Utils\Button_Sprite.cs Line: 73)
+
+Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs(24,44): warning CS0649: Field 'CameraFollowSetup.followTransform' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs Line: 24)
+
+<RI> Initializing input.
+<RI> Input initialized.
+Created GICache directory at C:/Users/Admin/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.066s, timestamps: [83.587 - 83.654]
+Issue TrimJob to reduce GI Cache size to maximum 10GB at: 'C:/Users/Admin/AppData/LocalLow/Unity/Caches/GiCache'
+TrimDiskCacheJob: Current cache size 463mb
+UPID Received '49451332-6389-4c22-8a2d-7d5e904a9928'.
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+[Performance] WebView.DoCefMessages                   :       78 samples, Peak.   113 ms (48.2x), Avg.  2.34 ms, Total. 182.8 ms (0.0%)
+[Performance] WebView.CheckCurlRequests               :       16 samples, Peak.  43.9 us (8.9x), Avg.  4.96 us, Total. 79.30 us (0.0%)
+[Performance] License.Tick                            :    39644 samples, Peak.  72.0 us (28.3x), Avg.  2.54 us, Total. 100.7 ms (0.0%)
+[Performance] UnityConnect.Tick                       :    17084 samples, Peak.  3.10 ms (293.5x), Avg.  10.6 us, Total. 180.7 ms (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :        5 samples, Peak.  30.4 ms (3.8x), Avg.  7.91 ms, Total. 39.55 ms (0.0%)
+[Performance] ConsoleWindow.OnGUI                     :       12 samples, Peak.   520 ms (11.9x), Avg.  43.9 ms, Total. 526.3 ms (0.1%)
+[Performance] GameView.OnGUI                          :       20 samples, Peak.  87.6 ms (8.8x), Avg.  9.94 ms, Total. 198.8 ms (0.0%)
+[Performance] InspectorWindow.OnGUI                   :       16 samples, Peak.  7.88 ms (13.0x), Avg.   607 us, Total. 9.708 ms (0.0%)
+[Performance] ProjectBrowser.OnGUI                    :       16 samples, Peak.  74.6 ms (9.1x), Avg.  8.19 ms, Total. 131.1 ms (0.0%)
+[Performance] SceneHierarchyWindow.OnGUI              :       22 samples, Peak.  13.5 ms (8.3x), Avg.  1.63 ms, Total. 35.76 ms (0.0%)
+[Performance] ApplicationTickTimer                    :   146117 samples, Peak.  3.98 s (7923.0x), Avg.   502 us, Total. 73.41 s (7.3%)
+[Performance] VCProvider                              :   146117 samples, Peak.  1.24 ms (662.2x), Avg.  1.87 us, Total. 273.1 ms (0.0%)
+[Performance] MonoCompiler.Tick                       :     4517 samples, Peak.  71.7 us (7.0x), Avg.  10.2 us, Total. 46.02 ms (0.0%)
+[Performance] Internal_SwitchSkin                     :   146117 samples, Peak.  36.4 us (804.2x), Avg.  45.3 ns, Total. 6.614 ms (0.0%)
+[Performance] Collab.Tick                             :    17052 samples, Peak.  3.91 s (4013.0x), Avg.   975 us, Total. 16.63 s (1.6%)
+[Performance] Collab.SaveSnapshot                     :       93 samples, Peak.  19.0 ms (90.0x), Avg.   211 us, Total. 19.59 ms (0.0%)
+[Performance] WebView.Tick                            :    38950 samples, Peak.  40.3 ms (383.8x), Avg.   105 us, Total. 4.086 s (0.4%)
+[Performance] CurlRequest.Tick                        :     8842 samples, Peak.  21.2 ms (5401.0x), Avg.  3.93 us, Total. 34.75 ms (0.0%)
+[Performance] SceneBackgroundTask.Tick                :     5943 samples, Peak.  36.9 us (98.5x), Avg.   374 ns, Total. 2.225 ms (0.0%)
+[Performance] Scheduler.Tick                          :    66849 samples, Peak.  5.53 ms (202.1x), Avg.  27.4 us, Total. 1.831 s (0.2%)
+[Performance] RepaintAllProfilerWindows               :     1819 samples, Peak.  3.20 ms (815.1x), Avg.  3.93 us, Total. 7.153 ms (0.0%)
+[Performance] PlayerUpdates.Tick                      :    17035 samples, Peak.   930 us (38.0x), Avg.  24.5 us, Total. 417.5 ms (0.0%)
+[Performance] GlobalCallbacks                         :   146117 samples, Peak.  2.10 ms (237.3x), Avg.  8.87 us, Total. 1.296 s (0.1%)
+[Performance] EditorAnalytics.Tick                    :     3599 samples, Peak.   107 us (34.3x), Avg.  3.13 us, Total. 11.26 ms (0.0%)
+[Performance] GI.Tick                                 :    17035 samples, Peak.  2.09 ms (54.8x), Avg.  38.2 us, Total. 651.3 ms (0.1%)
+[Performance] Video.Update                            :   146117 samples, Peak.  1.06 ms (1068.5x), Avg.   995 ns, Total. 145.4 ms (0.0%)
+[Performance] UnitySynchronization.ExecuteTasks       :    17035 samples, Peak.   546 us (83.5x), Avg.  6.55 us, Total. 111.5 ms (0.0%)
+[Performance] PreloadManager                          :   146117 samples, Peak.  2.86 ms (375.9x), Avg.  7.60 us, Total. 1.110 s (0.1%)
+[Performance] SceneTracker                            :   146117 samples, Peak.  65.1 ms (281.9x), Avg.   231 us, Total. 33.72 s (3.3%)
+[Performance] ConsoleLog.Tick                         :     4495 samples, Peak.   241 us (58.8x), Avg.  4.10 us, Total. 18.43 ms (0.0%)
+[Performance] HierarchyWindow.Tick                    :     5941 samples, Peak.  3.46 ms (3815.8x), Avg.   907 ns, Total. 5.388 ms (0.0%)
+[Performance] Inspector.Tick                          :     5941 samples, Peak.  31.5 ms (75.0x), Avg.   420 us, Total. 2.494 s (0.2%)
+[Performance] Tooltip.Tick                            :    17036 samples, Peak.  7.14 ms (504.0x), Avg.  14.2 us, Total. 241.3 ms (0.0%)
+[Performance] RequestRepaintForPanels                 :   146117 samples, Peak.   743 us (207.0x), Avg.  3.59 us, Total. 524.0 ms (0.1%)
+[Performance] UpdateSceneIfNeeded                     :   146117 samples, Peak.   197 ms (5689.3x), Avg.  34.7 us, Total. 5.068 s (0.5%)
+[Performance] UpdateVideoTextures                     :   146117 samples, Peak.  1.70 ms (3537.7x), Avg.   479 ns, Total. 70.04 ms (0.0%)
+[Performance] PackageImporter.Tick                    :     4494 samples, Peak.  3.70 us (6.4x), Avg.   577 ns, Total. 2.591 ms (0.0%)
+[Performance] InspectorBackground.Tick                :     5940 samples, Peak.  25.5 us (52.4x), Avg.   487 ns, Total. 2.890 ms (0.0%)
+[Performance] ChangeLayoutIfNeeded                    :   146117 samples, Peak.  76.4 us (443.5x), Avg.   172 ns, Total. 25.17 ms (0.0%)
+[Performance] AsyncReadManager.ForceCloseFiles        :      913 samples, Peak.   339 us (139.7x), Avg.  2.43 us, Total. 2.219 ms (0.0%)
+[Performance] Collab.StatusRefresh                    :        2 samples, Peak.   200 ns (1.3x), Avg.   150 ns, Total. 300.0 ns (0.0%)
+[Performance] Collab.CheckIgnoreRulesFile             :     1706 samples, Peak.   553 us (3.8x), Avg.   145 us, Total. 247.8 ms (0.0%)
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.046458s
+	Asset Scan time: 0.039432s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.021850s
+	Asset Scan time: 0.018461s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1576130430875,"processId":12520,"allocatedMemory":957081,"memoryLabels":[{"Default":1180},{"NewDelete":276978},{"Thread":8},{"Manager":640},{"VertexData":240},{"Texture":336},{"TextureCache":-336},{"GfxDevice":7760},{"Physics":241},{"Serialization":40},{"Terrain":112},{"String":183456},{"DynamicArray":24805},{"HashMap":13017},{"Curl":600},{"PoolAlloc":8},{"Sprites":128},{"GI":480},{"VR":2299},{"EditorGui":320},{"EditorUtility":1132},{"AssetImporter":32},{"RestService":256},{"License":8},{"UnityConnect":20224},{"Collab":353360},{"Upm":69757}]}

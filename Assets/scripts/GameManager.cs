@@ -4,24 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
+public enum GameStates{
+    running,GameOver,paused
+}
+
 public class GameManager : MonoBehaviour
 {
 
     public GameObject fuelPrefab;
     public bool shipCollisions = false;
 
+    public GameStates gameState = GameStates.running;
+
     public float spawnRadius=10f;
     public GameObject shipPrefab;
-    public GameObject PauseMenu;
-    public GameObject GameOverMenu;
-
-    public Text ScoreText;
-    public Text GameOverScore;
 
     public float ShipSpawnRate = 20f;
 
     private int ShipCount = 0;
-    private int score;
+    [SerializeField] FloatData scoreData;
 
     // singleTon reference
     public static GameManager instance;
@@ -73,17 +75,12 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         ShipCount = 0;
-        score = 0;
-        updateScore();
-        GameOverMenu.SetActive(false);
-        PauseMenu.SetActive(false);
+        scoreData.Data = 0;
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         shipSpawnCoroutine = StartCoroutine(ShipSpawn());
+        gameState = GameStates.running;
     }
 
-    void updateScore(){
-        ScoreText.text = "Score:"+score;
-    }
 
     IEnumerator ShipSpawn(){
         while(true){
@@ -98,8 +95,7 @@ public class GameManager : MonoBehaviour
 
     public void ShipDestroyed(GameObject ship){
 
-        score+=10;
-        updateScore();
+        scoreData.Data+=10;
         if(ShipCount>0){
             ShipCount--;
         }
@@ -111,7 +107,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void gameOver(){
-        GameOverMenu.SetActive(true);
+        gameState = GameStates.GameOver;
         StopAllCoroutines();
         Time.timeScale = 0;
     }
@@ -125,10 +121,13 @@ public class GameManager : MonoBehaviour
         if(pauseStatus){
             PauseGame();
         }
+        else{
+            UnpauseGame();
+        }
     }
 
     public void PauseGame(){
-        PauseMenu.SetActive(true);
+        gameState = GameStates.paused;
         Time.timeScale = 0;
     }
 
@@ -138,7 +137,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void UnpauseGame(){
-        PauseMenu.SetActive(false);
+        gameState = GameStates.running;
         Time.timeScale = 1;
     }
 
