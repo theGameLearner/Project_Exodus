@@ -1,1 +1,0 @@
-"C:\Program Files\Unity\Hub\Editor\2018.4.11f1\Editor\Unity.exe" -projectPath="C:\Unity\Project Exodus" -logFile stdout.log -executeMethod unityTools.BuildProject.BuildAndroid "C:\Unity\Project Exodus\MyGame.apk"
