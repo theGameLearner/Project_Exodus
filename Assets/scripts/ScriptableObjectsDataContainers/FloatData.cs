@@ -6,11 +6,15 @@ using UnityEngine;
 public class FloatData : ScriptableObject
 {
 
-    private float data;
+    [SerializeField] private float data;
 
     public float Data{
-        get;
-        set;
+        get{
+            return data;
+        }
+        set{
+            data = value;
+        }
     }
    
 }

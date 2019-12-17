@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
 
 
+    [SerializeField] FloatData SpeedMultiplier;
+
 
     public float MaxFuel = 100f;
 
@@ -45,6 +47,8 @@ public class Player : MonoBehaviour
         fuel.Data = MaxFuel;
 
         animator = GetComponent<Animator>();
+
+        speed *= SpeedMultiplier.Data;
     }
 
     IEnumerator AnimationCallback(string state,AnimEndCallback callback){
@@ -165,6 +169,16 @@ public class Player : MonoBehaviour
                 transform.Translate(new Vector3(0,distance,0),Space.Self);
 
             }
+       }
+       else{
+           
+           if(canMove){
+                //forward movement
+                float distance = speed*Time.fixedDeltaTime/2;
+                transform.Translate(new Vector3(0,distance,0),Space.Self);
+
+            }
+
        }
 
            

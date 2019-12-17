@@ -28,6 +28,9 @@ public class enemyShip : MonoBehaviour
 
     private float health;
 
+    [SerializeField] FloatData speedMultiplier;
+
+
 
 
 
@@ -37,6 +40,9 @@ public class enemyShip : MonoBehaviour
     {
         canMove = false;
         health = MaxHealth;
+
+        turnRate*=speedMultiplier.Data;
+        movementSpeed*=speedMultiplier.Data;
 
         //instantiate OffScreen pointer
         pointer = (GameObject)Instantiate(PointerPrefab,transform.position,Quaternion.identity);

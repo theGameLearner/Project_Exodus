@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 250bc3ad67c54d34ea3e6dd67afadf33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedMultiplier: {fileID: 11400000, guid: 76f49348a0eab8944b13f372af059418, type: 2}
   explosionParticleSystem: {fileID: 4955476724340917923, guid: 13523b2cdb153fc4882f6eb9f02d953c,
     type: 3}
   isArmed: 0

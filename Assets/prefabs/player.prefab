@@ -9796,6 +9796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de82cf67826bb9c458f2049ad030c5ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpeedMultiplier: {fileID: 11400000, guid: 76f49348a0eab8944b13f372af059418, type: 2}
   MaxFuel: 100
   fuelConsumptionRate: 3
   turnRadius: 0.05

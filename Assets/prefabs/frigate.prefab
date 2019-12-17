@@ -555,6 +555,7 @@ MonoBehaviour:
   destRadius: 20
   healthBar: {fileID: 6277105092913579857}
   destPos: {x: 0, y: 0, z: 0}
+  speedMultiplier: {fileID: 11400000, guid: 76f49348a0eab8944b13f372af059418, type: 2}
 --- !u!212 &8750493430240521830
 SpriteRenderer:
   m_ObjectHideFlags: 0

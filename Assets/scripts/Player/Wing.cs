@@ -20,6 +20,7 @@ public class Wing : MonoBehaviour
     void Start()
     {
         wingCollider = this.GetComponent<PolygonCollider2D>();
+        Debug.Log(wingCollider);
     }
     /// <summary>
     /// Sent when an incoming collider makes contact with this object's
@@ -38,7 +39,7 @@ public class Wing : MonoBehaviour
     }
 
     public void toggleCollider(){
-        wingCollider.enabled = !wingCollider.enabled;
+        wingCollider.isTrigger = !wingCollider.isTrigger;
         particleSystem.SetActive(!particleSystem.activeSelf);
     }
 

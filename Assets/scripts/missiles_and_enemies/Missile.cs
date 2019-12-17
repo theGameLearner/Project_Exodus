@@ -5,6 +5,7 @@ using UnityEngine;
 public class Missile : MonoBehaviour
 {
 
+    [SerializeField] FloatData speedMultiplier;
     public GameObject explosionParticleSystem;
     public bool isArmed = false;
 
@@ -26,11 +27,14 @@ public class Missile : MonoBehaviour
     /// </summary>
     void Start()
     {
+        speed *= speedMultiplier.Data;
+        turnResponse*= speedMultiplier.Data;
+
         //instantiate OffScreen pointer
         pointer = (GameObject)Instantiate(PointerPrefab,transform.position,Quaternion.identity);
         ArrowPointer pointerScript = pointer.GetComponent<ArrowPointer>();
         pointerScript.targetTransform = transform;
-        pointer.transform.parent = GameObject.FindGameObjectWithTag("Pointers").transform;
+        pointer.transform.SetParent( GameObject.FindGameObjectWithTag("Pointers").transform);
         pointer.transform.localScale = new Vector3(1,1,1);
         rigidbody2D = GetComponent<Rigidbody2D>();
         StartCoroutine(armMissile());
