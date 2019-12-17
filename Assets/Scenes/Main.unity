@@ -231,12 +231,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuelPrefab: {fileID: 4197104833140626972, guid: 2c57df0d8c15cc7499db9a95c6ac7944,
     type: 3}
+  RepairPrefab: {fileID: 4197104833140626972, guid: 07e2fefcd1f40054289f7cf0ec7f3f0f,
+    type: 3}
   shipCollisions: 1
+  RepairKitSpawned: 0
+  RepairKitSpawnRadius: 100
   gameState: 0
-  spawnRadius: 50
+  spawnRadius: 75
   shipPrefab: {fileID: 8750493430240521829, guid: 01a1feb1cd7015048aed5db221ac96ab,
     type: 3}
-  ShipSpawnRate: 20
+  ShipSpawnRate: 15
   scoreData: {fileID: 11400000, guid: 9bfce0674ba9bf141a454c74420466bc, type: 2}
 --- !u!1 &276994542
 GameObject:
@@ -867,7 +871,7 @@ Camera:
   far clip plane: 1000
   field of view: 46.7
   orthographic: 1
-  orthographic size: 30
+  orthographic size: 40
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1212,7 +1216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -80, y: -49.830017}
+  m_AnchoredPosition: {x: -80, y: -49.83008}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183753978
@@ -2055,7 +2059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -55.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979928373
@@ -2384,31 +2388,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4614460136386514986, guid: 2d5d51297dfdfc746bf1e254d3e73534,
-        type: 3}
-      propertyPath: FuelGauge
-      value: 
-      objectReference: {fileID: 1367148185}
-    - target: {fileID: 4614460136386514986, guid: 2d5d51297dfdfc746bf1e254d3e73534,
-        type: 3}
-      propertyPath: fuelConsumptionRate
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614460136386514986, guid: 2d5d51297dfdfc746bf1e254d3e73534,
-        type: 3}
-      propertyPath: speed
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614460136386514986, guid: 2d5d51297dfdfc746bf1e254d3e73534,
-        type: 3}
-      propertyPath: fuel
-      value: 
-      objectReference: {fileID: 11400000, guid: 074296544b87dc74cbcc24e365b5f04b,
-        type: 2}
-    - target: {fileID: 1054350451, guid: 2d5d51297dfdfc746bf1e254d3e73534, type: 3}
-      propertyPath: explosionParticleSystem
-      value: 
-      objectReference: {fileID: 8917196224841027411, guid: cecdfe9b729f81249aae79e9d4e29aa8,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5d51297dfdfc746bf1e254d3e73534, type: 3}

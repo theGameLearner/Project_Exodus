@@ -42,7 +42,7 @@ public class missileLauncher : MonoBehaviour
         
         //instantiate missile
         GameObject missileObj; 
-        missileObj = (GameObject)Instantiate(missilePrefab,new Vector3(transform.position.x,transform.position.y,0),Quaternion.identity);
+        missileObj = (GameObject)Instantiate(missilePrefab,new Vector3(transform.position.x,transform.position.y,0),transform.rotation);
         
 
         Missile mScript = missileObj.GetComponent<Missile>();
@@ -53,7 +53,7 @@ public class missileLauncher : MonoBehaviour
 
         //point it toward player
         Vector2 direction = (playerTransform.position-missileObj.transform.position).normalized;
-        transform.rotation = Quaternion.FromToRotation(Vector3.up,direction);
+        transform.rotation = Quaternion.FromToRotation(transform.up,direction);
         mScript.enabled=true;}
     }
 

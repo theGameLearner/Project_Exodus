@@ -9,7 +9,7 @@ public class ArrowPointer : MonoBehaviour
     public Transform targetTransform;
     
 
-    public float offset = 100f;
+    public float offset = 200f;
 
     [SerializeField]
     private Camera UICamera;

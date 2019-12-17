@@ -47,4 +47,4 @@ MonoBehaviour:
   - {fileID: 1467613435907510765, guid: d6f04348bcb0a0f45a44f2360cff8ce9, type: 3}
   playerTransform: {fileID: 0}
   spawnRadius: 100
-  spawnRate: 10
+  spawnRate: 5

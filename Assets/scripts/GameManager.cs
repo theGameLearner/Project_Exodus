@@ -13,7 +13,14 @@ public class GameManager : MonoBehaviour
 {
 
     public GameObject fuelPrefab;
+
+    public GameObject RepairPrefab;
     public bool shipCollisions = false;
+
+    [HideInInspector]
+    public bool RepairKitSpawned = false;
+
+    public float RepairKitSpawnRadius = 100f; 
 
     public GameStates gameState = GameStates.running;
 
@@ -64,6 +71,7 @@ public class GameManager : MonoBehaviour
        if(enemyScript!=null)
        {
            enemyScript.destPos = playerTransform.position; 
+           enemyScript.PlayerTransform = playerTransform;
         }
         ShipCount++;
     }
@@ -139,6 +147,21 @@ public class GameManager : MonoBehaviour
     public void UnpauseGame(){
         gameState = GameStates.running;
         Time.timeScale = 1;
+    }
+
+    public void SpawnRepairKit(){
+
+        if(!RepairKitSpawned){
+            Vector3 Pos = playerTransform.position;
+            Vector2 rand = Random.insideUnitCircle*RepairKitSpawnRadius;
+            Pos.x+=rand.x;
+            Pos.y+=rand.y;
+
+            GameObject r = Instantiate(RepairPrefab,Pos,Quaternion.identity);
+        }
+
+        RepairKitSpawned = true;
+
     }
 
 

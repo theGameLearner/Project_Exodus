@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class enemyShip : MonoBehaviour
 {
+    public Transform PlayerTransform;
     public GameObject explosionParticleSystem;
     public GameObject PointerPrefab;
     private GameObject pointer;
@@ -62,7 +63,7 @@ public class enemyShip : MonoBehaviour
             }
             else{
                 canMove = false;
-                Vector2 newDst = Random.insideUnitCircle.normalized*destRadius;
+                Vector2 newDst = (Random.insideUnitCircle.normalized)*destRadius+new Vector2(PlayerTransform.position.x,PlayerTransform.position.y);
                 destPos = new Vector3(newDst.x,newDst.y,0);
 
             }

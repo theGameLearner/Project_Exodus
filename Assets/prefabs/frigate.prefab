@@ -493,7 +493,7 @@ MonoBehaviour:
     type: 3}
   progressBar: {fileID: 1957095349738754032}
   playerTransform: {fileID: 0}
-  spawnRate: 5
+  spawnRate: 4
 --- !u!1 &8750493430240521829
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +506,7 @@ GameObject:
   - component: {fileID: 8750493430240521831}
   - component: {fileID: 8750493430240521830}
   - component: {fileID: 1342824420}
+  - component: {fileID: 6751292526693607235}
   m_Layer: 0
   m_Name: frigate
   m_TagString: enemy
@@ -542,13 +543,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee561da5e461fa4eb70ae7e93d5f3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTransform: {fileID: 0}
   explosionParticleSystem: {fileID: 8917196224841027411, guid: cecdfe9b729f81249aae79e9d4e29aa8,
     type: 3}
   PointerPrefab: {fileID: 4722021415172551759, guid: 45f0a082becf5ec46a2044cfa0ab7947,
     type: 3}
   MaxHealth: 2
-  movementSpeed: 5
-  turnRate: 10
+  movementSpeed: 7.5
+  turnRate: 50
   tolerance: 1
   destRadius: 20
   healthBar: {fileID: 6277105092913579857}
@@ -615,7 +617,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.20028877, y: -0.15022087}
+  m_Offset: {x: 0.25878716, y: -0.21082115}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -626,5 +628,31 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.2907677, y: 13.192635}
+  m_Size: {x: 2.7979183, y: 16.222572}
+  m_EdgeRadius: 0
+--- !u!61 &6751292526693607235
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8750493430240521829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.058000088, y: -0.24446678}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13.7, y: 18.3}
+    newSize: {x: 0.685, y: 0.915}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.430858, y: 6.184456}
   m_EdgeRadius: 0
