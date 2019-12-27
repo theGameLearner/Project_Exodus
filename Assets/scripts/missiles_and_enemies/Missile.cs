@@ -9,6 +9,7 @@ public class Missile : MonoBehaviour
     public GameObject explosionParticleSystem;
     public bool isArmed = false;
 
+
     public float armingTime = 2f;
     public GameObject PointerPrefab;
     private GameObject pointer;
@@ -60,12 +61,16 @@ public class Missile : MonoBehaviour
             //turn to point at target
             float rotamt = -Vector3.Cross((target.position-transform.position).normalized,transform.up).z;
             rigidbody2D.angularVelocity = rotamt*turnResponse;
-            
-            //move forward;
-            rigidbody2D.velocity = transform.up*speed;
+
+        }
 
            
-        }
+            //move forward;
+        rigidbody2D.velocity = transform.up*speed;
+
+
+
+
        
     }
 
@@ -86,6 +91,11 @@ public class Missile : MonoBehaviour
 
 
             
+        }
+        else if(other.collider.tag == "Reflector"){
+            target = null;
+            //reverse it's direction
+            transform.rotation = Quaternion.FromToRotation(Vector3.up,-1*transform.up);
         }
     }
 

@@ -11,7 +11,11 @@ public class UIManager : MonoBehaviour
    [SerializeField] FloatData FuelData;
    [SerializeField] FloatData ScoreData;
 
+   [SerializeField] FloatData abilityData;
+
    public GameObject fuelGauge;
+
+   public GameObject abilityGauge;
 
    public Text ScoreText;
 
@@ -80,5 +84,10 @@ public class UIManager : MonoBehaviour
     private void UpdateFuelGauge()
     {
         fuelGauge.transform.localScale = new Vector3( FuelData.Data/100, fuelGauge.transform.localScale.y, fuelGauge.transform.localScale.z);
+    }
+
+    private void UpdateAbilityGauge()
+    {
+        abilityGauge.transform.localScale = new Vector3( abilityData.Data/100, fuelGauge.transform.localScale.y, abilityGauge.transform.localScale.z);
     }
 }

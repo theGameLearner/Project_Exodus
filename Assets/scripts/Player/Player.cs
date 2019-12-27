@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] FloatData SpeedMultiplier;
 
 
+    [SerializeField] PlayerAbilityBase ability;
+
+
     public float MaxFuel = 100f;
 
     public float fuelConsumptionRate = 0.1f;
@@ -49,6 +52,11 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
 
         speed *= SpeedMultiplier.Data;
+
+        if(ability!=null){
+            ability.OnPickup(transform);
+
+        }
     }
 
     IEnumerator AnimationCallback(string state,AnimEndCallback callback){
@@ -94,6 +102,29 @@ public class Player : MonoBehaviour
             PerformingTrick = true;
             StartCoroutine(AnimationCallback("flip",endflip));
         }
+
+        #region ability
+            if(Input.GetKeyDown(KeyCode.X)){
+                if(ability!=null){
+                    Debug.Log("ability key down");
+                    ability.OnAbilityKeyDown();
+                }
+            }
+            if(Input.GetKey(KeyCode.X)){
+                if(ability!=null){
+                    ability.OnAbilityKey();
+                }
+            }
+            if(Input.GetKeyUp(KeyCode.X)){
+                if(ability!=null){
+                    ability.OnAbilityKeyUp();
+                }
+            }
+
+            if(ability!=null){
+                ability.abilityUpdate();
+            }
+        #endregion
 
         if(Input.GetKey(KeyCode.LeftArrow)){
             turning = true;
