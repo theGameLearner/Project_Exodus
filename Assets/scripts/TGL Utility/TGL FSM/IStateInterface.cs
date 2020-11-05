@@ -7,7 +7,7 @@
  */
 
 
-namespace Assets.scripts.TGL_Utility.TGL_FSM
+namespace TGL.FSM
 {
 	public interface IStateInterface
 	{

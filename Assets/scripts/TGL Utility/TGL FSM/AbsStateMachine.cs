@@ -10,9 +10,9 @@
 
 using UnityEngine;
 
-namespace Assets.scripts.TGL_Utility.TGL_FSM
+namespace TGL.FSM
 {
-	abstract class AbsStateMachine : UnityEngine.MonoBehaviour, IStateMachineInterface
+	public abstract class AbsStateMachine : MonoBehaviour, IStateMachineInterface
 	{
 		#region variable definition
 

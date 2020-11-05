@@ -6,60 +6,64 @@ using UnityEngine;
 [CreateAssetMenu]
 public class SheildAbility : PlayerAbilityBase
 {
-    
-    GameObject sheild;
+	GameObject sheild;
 
-    public GameObject Meter;
+	public GameObject Meter;
 
-    public float MaxsheildCharge;
+	public float MaxsheildCharge;
 
-    [SerializeField] FloatData sheildCharge;
+	[SerializeField] FloatData sheildCharge;
 
-    public float dischargeRate;
+	public float dischargeRate;
 
-    bool isActive = false;
-
-
-    public override void abilityInitialize(){
-        sheild = Instantiate(AbilityPrefab,PlayerTransform.position,Quaternion.identity,PlayerTransform);
-        sheild.SetActive(false);
-        sheildCharge.Data = MaxsheildCharge;
-
-    }
-
-    public override void abilityUpdate(){
-        if(isActive&&sheildCharge.Data>0){
-            sheildCharge.Data = Mathf.Clamp(sheildCharge.Data-dischargeRate,0,sheildCharge.Data);
-        }
-
-    }
-
-    public void Activate(){
-        sheild.SetActive(true);
-        //Meter.SetActive(true);
-    }
-
-    public void Deactivate(){
-        sheild.SetActive(false);
-        //Meter.SetActive(true);
-    }
-
-    public override void OnAbilityKeyDown(){
-
-        Debug.Log("key down");
-        isActive = true;
-        Activate();
-    }
-
-    public override void OnAbilityKeyUp(){
-        isActive = false;
-        Deactivate();
-    }
+	bool isActive = false;
 
 
+	public override void abilityInitialize()
+	{
+		sheild = Instantiate(AbilityPrefab, PlayerTransform.position, Quaternion.identity, PlayerTransform);
+		sheild.SetActive(false);
+		sheildCharge.Data = MaxsheildCharge;
+	}
 
+	public override void abilityUpdate()
+	{
+		if (isActive && sheildCharge.Data > 0)
+		{
+			sheildCharge.Data = Mathf.Clamp(sheildCharge.Data - dischargeRate, 0, sheildCharge.Data);
+		}
+		else if(isActive && sheildCharge.Data <= 0)
+		{
+			OnAbilityKeyUp();
+			sheildCharge.Data = 0;
+		}
+	}
 
+	public void Activate()
+	{
+		sheild.SetActive(true);
+		//Meter.SetActive(true);
+	}
 
+	public void Deactivate()
+	{
+		sheild.SetActive(false);
+		//Meter.SetActive(true);
+	}
 
+	public override void OnAbilityKeyDown()
+	{
+		//Debug.Log("key down");
+		if (sheildCharge.Data > 0)
+		{
+			isActive = true;
+			Activate();
+		}
+	}
 
+	public override void OnAbilityKeyUp()
+	{
+		isActive = false;
+		Deactivate();
+	}
 }

@@ -8,7 +8,3 @@ This Utility is created by using old codes shared by friends and some online sea
 If you feel it is copy of your personal creation, please reach out to me on linkedIn or UnityConnect on the below mentioned urls:
  * https://connect.unity.com/u/rishabh-jain-1-1-1
  * https://www.linkedin.com/in/rishabh-jain-266081b7/
-
-
-
- Need to create a machine and state to control that machine to make use conditions clear

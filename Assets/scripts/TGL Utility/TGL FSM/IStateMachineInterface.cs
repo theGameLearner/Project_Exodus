@@ -6,7 +6,7 @@
  * created on - #25-Oct-2020#
  */
 
-namespace Assets.scripts.TGL_Utility.TGL_FSM
+namespace TGL.FSM
 {
 	public interface IStateMachineInterface
 	{

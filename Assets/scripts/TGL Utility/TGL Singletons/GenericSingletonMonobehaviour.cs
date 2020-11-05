@@ -8,7 +8,7 @@
 
 
 /*
- * Used a few old scripts for reference, but the code is mae by TGL
+ * Used internet link for reference, but the code is mae by TGL
  * ref : https://csharpindepth.com/articles/singleton
  */
 
@@ -16,7 +16,7 @@
 using UnityEngine;
 
 
-namespace Assets.scripts.TGL_Utility.TGL_Singletons
+namespace TGL.Singletons
 {
 
     //defination states that the generic class passed will also be derived from monobehaviour

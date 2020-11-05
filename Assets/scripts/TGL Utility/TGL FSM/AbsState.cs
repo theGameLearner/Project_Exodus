@@ -8,7 +8,7 @@
 
 using UnityEngine;
 
-namespace Assets.scripts.TGL_Utility.TGL_FSM
+namespace TGL.FSM
 {
 	public abstract class AbsState : IStateInterface
 	{

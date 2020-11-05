@@ -68,8 +68,7 @@ public class ArrowPointer : MonoBehaviour
                 }
 
                 Vector3 pointerWorldPosition = UICamera.ScreenToWorldPoint(cappedTargetPosition);
-                rectTransform.position = pointerWorldPosition;
-                rectTransform.localPosition = new Vector3(rectTransform.localPosition.x,rectTransform.localPosition.y,0);
+				rectTransform.position = pointerWorldPosition;
             }
             else{
                 image.enabled = false;

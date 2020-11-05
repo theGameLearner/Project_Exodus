@@ -11,7 +11,7 @@ The idea is to convert this project using the [SOLID](https://en.wikipedia.org/w
 ##### &emsp; PlayerAbilityBase.cs
 &emsp; &emsp; Perfect.
 ##### &emsp; SheildAbility.cs
-- [ ] Needs to handle ability use when data reaches zero
+- [X] Needs to handle ability use when data reaches zero
 ##### &emsp; FloatData.cs
 &emsp; &emsp; Perfect.
 
@@ -37,7 +37,7 @@ The idea is to convert this project using the [SOLID](https://en.wikipedia.org/w
 ##### &emsp; Player.cs
 - [ ] Make a different FloatData scriptable object to store player's current fuel
 - [ ] use RequireComponent attribute on scripts when you have GetComponent dependencies(animator)
-- [-] Edit AnimationCallback() functionality
+- [-] Edit AnimationCallbackMethodMethod() functionality
 - [ ] Create a seperate class for InputHandler
 - [ ] SheildAbility.cs does not have a override defined for OnAbilityKey() so whhy are we using it?
 - [ ] Implement 'Pause', 'Shield' and 'Flip' on Android platform
@@ -102,3 +102,16 @@ The idea is to convert this project using the [SOLID](https://en.wikipedia.org/w
 - Test the new FSM system created.
 - Create demo classes for both machine and a initial state.
 - Create a centralised Messenger or Event System that can fire and listen for events with subscriping capablities
+
+
+## 26 - 10 - 2020
+- created demo for using the FSM
+- used ['Advanced CSharp Messenger'](http://wiki.unity3d.com/index.php/Advanced_CSharp_Messenger) by Ilya Suzdalnitski for a messenger system.
+- create a centralised class to store names of all EventNames that we want to fire as well as listen for.
+- Setup done, we can begin the SOLID principle
+- SheildAbility.cs adding checks for charge being Zero
+- created UiCameraHandler.cs to do all UI related Calculations
+
+
+## 05 - 10 - 2020
+- old push

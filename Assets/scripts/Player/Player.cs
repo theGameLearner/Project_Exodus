@@ -6,81 +6,84 @@ public class Player : MonoBehaviour
 {
 
 
-    [SerializeField] FloatData SpeedMultiplier;
+	[SerializeField] FloatData SpeedMultiplier;
 
 
-    [SerializeField] PlayerAbilityBase ability;
+	[SerializeField] PlayerAbilityBase ability;
 
 
-    public float MaxFuel = 100f;
+	public float MaxFuel = 100f;
 
-    public float fuelConsumptionRate = 0.1f;
+	public float fuelConsumptionRate = 0.1f;
 
-    public float turnRadius = 1f;
+	public float turnRadius = 1f;
 
-    public float damageTurnMultiplier = 2f;
-    public float speed = 10f;
+	public float damageTurnMultiplier = 2f;
+	public float speed = 10f;
 
-    public float screenCenterX;
+	public float screenCenterX;
 
-    private bool mouseDown;
+	private bool mouseDown;
 
-    private float mouseX;
+	private float mouseX;
 
-    public Wing leftWing;
-    public Wing rightWing;
+	public Wing leftWing;
+	public Wing rightWing;
 
-    private bool canMove = true;
-    private bool PerformingTrick = false;
+	private bool canMove = true;
+	private bool PerformingTrick = false;
 
-    private bool turning = false;
-    private bool turnLeft = false;
+	private bool turning = false;
+	private bool turnLeft = false;
 
-    private Animator animator;
+	private Animator animator;
 
-    [SerializeField] FloatData fuel;
+	[SerializeField] FloatData fuel;
 
-    private delegate void AnimEndCallback();
+	private delegate void AnimEndCallback();
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        screenCenterX = Screen.width/2;
-        fuel.Data = MaxFuel;
+	// Start is called before the first frame update
+	void Start()
+	{
+		screenCenterX = Screen.width / 2;
+		fuel.Data = MaxFuel;
 
-        animator = GetComponent<Animator>();
+		animator = GetComponent<Animator>();
 
-        speed *= SpeedMultiplier.Data;
+		speed *= SpeedMultiplier.Data;
 
-        if(ability!=null){
-            ability.OnPickup(transform);
+		if (ability != null)
+		{
+			ability.OnPickup(transform);
 
-        }
-    }
+		}
+	}
 
-    IEnumerator AnimationCallback(string state,AnimEndCallback callback){
-        
-        while(!animator.GetCurrentAnimatorStateInfo(0).IsName(state))
-        yield return null;
+	IEnumerator AnimationCallback(string state, AnimEndCallback callback)
+	{
 
-        while(animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-        yield return null;
-        callback();
-    }
+		while (!animator.GetCurrentAnimatorStateInfo(0).IsName(state))
+			yield return null;
 
-    void endflip(){
-        PerformingTrick = false;
-    }
+		while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+			yield return null;
+		callback();
+	}
 
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
-    void Update()
-    {
-        
+	void endflip()
+	{
+		PerformingTrick = false;
+	}
 
-        #if UNITY_ANDROID && !UNITY_EDITOR
+	/// <summary>
+	/// Update is called every frame, if the MonoBehaviour is enabled.
+	/// </summary>
+	void Update()
+	{
+
+
+#if UNITY_ANDROID && !UNITY_EDITOR
         mouseDown = Input.GetMouseButton(0);
         if(mouseDown){
             turning = true;
@@ -95,125 +98,153 @@ public class Player : MonoBehaviour
         else{
             turning = false;
         }
-        #else
+#else
 
-        if(Input.GetKeyDown(KeyCode.Z)){
-            animator.SetTrigger("Flip");
-            PerformingTrick = true;
-            StartCoroutine(AnimationCallback("flip",endflip));
-        }
+		if (Input.GetKeyDown(KeyCode.Z))
+		{
+			animator.SetTrigger("Flip");
+			PerformingTrick = true;
+			StartCoroutine(AnimationCallback("flip", endflip));
+		}
 
-        #region ability
-            if(Input.GetKeyDown(KeyCode.X)){
-                if(ability!=null){
-                    Debug.Log("ability key down");
-                    ability.OnAbilityKeyDown();
-                }
-            }
-            if(Input.GetKey(KeyCode.X)){
-                if(ability!=null){
-                    ability.OnAbilityKey();
-                }
-            }
-            if(Input.GetKeyUp(KeyCode.X)){
-                if(ability!=null){
-                    ability.OnAbilityKeyUp();
-                }
-            }
+		#region ability
+		if (Input.GetKeyDown(KeyCode.X))
+		{
+			if (ability != null)
+			{
+				Debug.Log("ability key down");
+				ability.OnAbilityKeyDown();
+			}
+		}
+		if (Input.GetKey(KeyCode.X))
+		{
+			if (ability != null)
+			{
+				ability.OnAbilityKey();
+			}
+		}
+		if (Input.GetKeyUp(KeyCode.X))
+		{
+			if (ability != null)
+			{
+				ability.OnAbilityKeyUp();
+			}
+		}
 
-            if(ability!=null){
-                ability.abilityUpdate();
-            }
-        #endregion
+		if (ability != null)
+		{
+			ability.abilityUpdate();
+		}
+		#endregion
 
-        if(Input.GetKey(KeyCode.LeftArrow)){
-            turning = true;
-            turnLeft = true;
-           
-        }
-        else if(Input.GetKey(KeyCode.RightArrow)){
-            turning = true;
-            turnLeft = false;
-        }
-        else{
-            turning = false;
-        }
+		if (Input.GetKey(KeyCode.LeftArrow))
+		{
+			turning = true;
+			turnLeft = true;
 
-        if(Input.GetKey(KeyCode.Escape)){
-            GameManager.instance.PauseGame();
-        }
+		}
+		else if (Input.GetKey(KeyCode.RightArrow))
+		{
+			turning = true;
+			turnLeft = false;
+		}
+		else
+		{
+			turning = false;
+		}
 
-        #endif
+		if (Input.GetKey(KeyCode.Escape))
+		{
+			GameManager.instance.PauseGame();
+		}
 
-       
-        if(canMove){
-            if(fuel.Data<=0){
-                canMove = false;
-            }
-            else{
-                fuel.Data -= fuelConsumptionRate*Time.deltaTime;
-            }
-        }
-        
-    }
+#endif
 
-    public void RefillFuel(){
-        fuel.Data = MaxFuel;
-    }
 
-    public void fixWings(){
-        if(leftWing.damaged){
-            leftWing.Repair();
-        }
-         if(rightWing.damaged){
-            rightWing.Repair();
-        }
-    }
+		if (canMove)
+		{
+			if (fuel.Data <= 0)
+			{
+				canMove = false;
+			}
+			else
+			{
+				fuel.Data -= fuelConsumptionRate * Time.deltaTime;
+			}
+		}
 
-    
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-       if(!PerformingTrick){
-            //turning
-            if(turning){
-                float angle = speed*Time.fixedDeltaTime/(2*turnRadius);
-                if(turnLeft){
-                    if(leftWing.damaged){
-                        angle/=damageTurnMultiplier;
-                    }
-                    transform.Rotate(Vector3.forward,angle,Space.World);
-                }
-                else{
-                    if(rightWing.damaged){
-                        angle/=damageTurnMultiplier;
-                    }
-                transform.Rotate(-Vector3.forward,angle,Space.World); 
-                }
-            }
-            
-            
-            if(canMove){
-                //forward movement
-                float distance = speed*Time.fixedDeltaTime;
-                transform.Translate(new Vector3(0,distance,0),Space.Self);
+	}
 
-            }
-       }
-       else{
-           
-           if(canMove){
-                //forward movement
-                float distance = speed*Time.fixedDeltaTime/2;
-                transform.Translate(new Vector3(0,distance,0),Space.Self);
+	public void RefillFuel()
+	{
+		fuel.Data = MaxFuel;
+	}
 
-            }
+	public void fixWings()
+	{
+		if (leftWing.damaged)
+		{
+			leftWing.Repair();
+		}
+		if (rightWing.damaged)
+		{
+			rightWing.Repair();
+		}
+	}
 
-       }
 
-           
-    }
+	// Update is called once per frame
+	void FixedUpdate()
+	{
 
-   
+		if (!PerformingTrick)
+		{
+			//turning
+			if (turning)
+			{
+				float angle = speed * Time.fixedDeltaTime / (2 * turnRadius);
+				if (turnLeft)
+				{
+					if (leftWing.damaged)
+					{
+						angle /= damageTurnMultiplier;
+					}
+					transform.Rotate(Vector3.forward, angle, Space.World);
+				}
+				else
+				{
+					if (rightWing.damaged)
+					{
+						angle /= damageTurnMultiplier;
+					}
+					transform.Rotate(-Vector3.forward, angle, Space.World);
+				}
+			}
+
+
+			if (canMove)
+			{
+				//forward movement
+				float distance = speed * Time.fixedDeltaTime;
+				transform.Translate(new Vector3(0, distance, 0), Space.Self);
+
+			}
+		}
+		else
+		{
+
+			if (canMove)
+			{
+				//forward movement
+				float distance = speed * Time.fixedDeltaTime / 2;
+				transform.Translate(new Vector3(0, distance, 0), Space.Self);
+
+			}
+
+		}
+
+
+	}
+
+
 }
